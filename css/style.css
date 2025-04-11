@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f0f0; /* Light gray */
+}
+
+.outer-box {
+    background-color: #ffffff; /* White */
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    max-height: 90vh;
+    overflow-y: hidden;
+
+}
+
+
+.filter-box {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 10px;
+      margin-bottom: 10px;
+      max-height: 200px;
+      overflow-y: auto;
+}
+.filter-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+}
+.form-check{
+    padding-left: 0em;
+}
+.form-check-input {
+    border: 1px solid #333;
+    border-radius: none;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0em;
+}
+.form-check-input:checked {
+    background-color: #11ce36;
+    border-color: #11ce36;
+}
+
+.color-dot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+  }
+  
+
+/*Media Query*/
+@media (min-width: 1200px) {
+    .custom-col {
+      flex: 0 0 14.2857%; /* 100 / 7 */
+      max-width: 14.2857%;
+    }
+  }
